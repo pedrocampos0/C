@@ -15,6 +15,11 @@ int f91(int N){
 
 int main()
 {
-    /* code */
+    int N=0, M=0;
+    while (scanf("%d",&N) != 0){
+        if (N==0){break;} 
+        M=f91(N);
+        printf("f91(%d) = %d\n", N, M);
+        }
     return 0;
 }
