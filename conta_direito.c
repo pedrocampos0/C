@@ -1,7 +1,10 @@
+#include <stdio.h>
+
 int faz_conta_direito(int parcelas, char op)
 {
     int i;
-    int soma, sub, div, mul;
+    /* int soma, sub, div, mul; */
+    int sub;
     scanf("%d", &parcelas);
     int C[parcelas];
     int sub[parcelas];
@@ -14,7 +17,12 @@ int faz_conta_direito(int parcelas, char op)
         }
         
     }
-    
-    
+    return 0;
+}
+
+int main() {
+    int n = faz_conta_direito(4, '-');
+    scanf("%d", n);
+    printf("%d", n);
     return 0;
 }
