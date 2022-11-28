@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.spim": "mips",
+        "iostream": "c",
+        "algorithm": "c",
+        "random": "c",
+        "string.h": "c",
+        "cstdlib": "c"
+    }
+}
